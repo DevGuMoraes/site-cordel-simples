@@ -63,7 +63,11 @@ section.normal {
 section.imagem {
     background-color: rgb(37, 36, 36);
     color: white;
-    box-shadow: inset 6px 6px 10px black;
+    box-shadow: inset 1px 3px 13px rgba(0, 0, 0, 0.595);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p {
@@ -71,10 +75,7 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.304);
     text-shadow: 1px 2px 0px black;
     padding: 20px;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
-}
+} 
 
 section#img01 {
     background-image: url(../imagens/background001.jpg);
